@@ -240,3 +240,12 @@ Hermes integration checks will use an isolated temporary `HERMES_HOME` and the i
 ## Approval requested
 
 Approval of this plan authorizes architecture validation and the four-phase implementation procedure. Live personal-message reads and the live send test retain their dedicated operator review points.
+
+## Approval and execution log
+
+- **Approved by the operator:** 2026-08-20
+- **Architecture validation:** In progress
+- Confirmed the current Hermes root-manifest plugin layout and human-approval hook contract from the installed Hermes source.
+- Confirmed the local Messages scripting dictionary exposes delivery to chats and participants.
+- Confirmed macOS privacy currently denies the live schema-only database probe, establishing Full Disk Access as a live-test prerequisite.
+- Validated dependency-free Foundation decoding with a synthetic `NSAttributedString` and a batched stdin-only JXA transport.
