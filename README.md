@@ -2,7 +2,7 @@
 
 # Hermes Apple Messages
 
-Bring Apple Messages into Hermes Agent with local-first conversation search, reading, analysis, reply drafting, and approval-gated sending on macOS.
+Evaluate and strengthen Apple Messages integrations for Hermes Agent through compatibility testing, documented gaps, and upstream contributions.
 
 ## Vision
 
@@ -17,7 +17,18 @@ Hermes Apple Messages gives Hermes a focused set of tools for working with the c
 
 ## Project status
 
-The project is entering its design and implementation phase. The first release will focus on a secure, testable Python integration for Hermes Agent on macOS.
+Implementation is paused following an ecosystem review. Hermes already ships an official [`imessage` skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/apple/apple-imessage), BlueBubbles support, and Photon support, while community projects provide several local `imsg` platform plugins and a matching local MCP design.
+
+This repository remains an evaluation workspace while we test the official path and leading community integrations. Verified gaps will become upstream contributions to the strongest existing project. This approach concentrates maintenance, review, and discoverability where the community already gathers.
+
+Current references:
+
+- [Official Hermes iMessage skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/apple/apple-imessage)
+- [promptclickrun/hermes-imsg-cli](https://github.com/promptclickrun/hermes-imsg-cli)
+- [MaudeCode/hermes-imsg-platform](https://github.com/MaudeCode/hermes-imsg-platform)
+- [jeffhuber/hermes-imessage-plugin](https://github.com/jeffhuber/hermes-imessage-plugin)
+- [BlueBubbles setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/bluebubbles)
+- [Photon setup](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/photon)
 
 ## Safety principles
 

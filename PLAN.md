@@ -244,8 +244,10 @@ Approval of this plan authorizes architecture validation and the four-phase impl
 ## Approval and execution log
 
 - **Approved by the operator:** 2026-08-20
-- **Architecture validation:** In progress
+- **Architecture validation:** Paused after ecosystem review
 - Confirmed the current Hermes root-manifest plugin layout and human-approval hook contract from the installed Hermes source.
 - Confirmed the local Messages scripting dictionary exposes delivery to chats and participants.
 - Confirmed macOS privacy currently denies the live schema-only database probe, establishing Full Disk Access as a live-test prerequisite.
 - Validated dependency-free Foundation decoding with a synthetic `NSAttributedString` and a batched stdin-only JXA transport.
+- Audited the official Hermes `imessage` skill, official BlueBubbles and Photon channels, and multiple community `imsg` and MCP integrations.
+- Paused greenfield implementation in favor of evaluating existing integrations and contributing verified gaps upstream.
